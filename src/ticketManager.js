@@ -15,7 +15,7 @@ class TicketManager extends EventEmitter {
     }
     this.emit(
       'error',
-      new Error(chalk.red('There are no more tickets left to purchase'))
+      new Error(chalk.bgRed('There are no more tickets left to purchase'))
     );
   }
 }

@@ -4,8 +4,8 @@ const log = console.log;
 class DatabaseService {
   save(email, price, timestamp) {
     log(
-      chalk.bgRed(
-        `Running query: INSERT INTO orders VALUES (email, price, created) VALUES (${email}, ${price}, ${timestamp})`
+      chalk.cyan(
+        chalk`Running query: INSERT INTO orders VALUES (email, price, created) VALUES {yellowBright.bold (${email}, ${price}, ${timestamp})}`
       )
     );
   }
