@@ -1,0 +1,20 @@
+{
+  "name": "ticket-manager-emgrey02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/ticket-manager-emgrey02.git"
+  },
+  "keywords": [],
+  "author": "Emma Grey <emgrey02@gmail.com> (https://github.com/emgrey02)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/ticket-manager-emgrey02/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/ticket-manager-emgrey02#readme"
+}
