@@ -13,7 +13,10 @@ class TicketManager extends EventEmitter {
       this.emit('buy', email, price, Date.now());
       return;
     }
-    this.emit('error', new Error(chalk.red('There are no more tickets left to purchase'));
+    this.emit(
+      'error',
+      new Error(chalk.red('There are no more tickets left to purchase'))
+    );
   }
 }
 
