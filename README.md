@@ -1,6 +1,6 @@
 # Ticket Manager App
 
-In this project, I learn how to use Node.js's Event Emitter class to create a Ticket Manager.
+In this project, I learn how to use Node.js's Event Emitter class to create a Ticket Manager. I followed the [Using Event Emitters in Node.js](http://feitingair.com/using-event-emitters-in-node-js.html) tutorial by [Stack Abuse](https://stackabuse.com/).
 
 When someone buys a ticket, an event called 'buy' is sent, which includes details about who purchased the ticket. This is done by the _buy_ method in the Ticket Manager class.
 
@@ -63,3 +63,19 @@ ticketManager.listenerCount('buy'); //returns number of event listeners for spec
 
 Every step printed onto the console is colored using the **chalk** npm module. For example:
 ![example of console output](/images/console-screenshot.png)
+
+# runtime environment
+- [Node.js](https://nodejs.org/en/)
+
+# npm modules
+- [chalk](https://www.npmjs.com/package/chalk/v/2.4.2)
+
+# dev dependencies
+- [nodemon](https://nodemon.io/)
+- [ESlint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
+# Author
+Emma Grey [@emgrey02](https://github.com/emgrey02)
+
+
