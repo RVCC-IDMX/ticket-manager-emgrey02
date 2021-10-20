@@ -5,7 +5,7 @@ class DatabaseService {
   save(email, price, timestamp) {
     log(
       chalk.cyan(
-        chalk`Running query: INSERT INTO orders VALUES (email, price, created) VALUES {yellowBright.bold (${email}, ${price}, ${timestamp})}`
+        chalk`\nRunning query...\n\nINSERT INTO orders VALUES (email, price, created) \nVALUES {yellowBright.bold (${email}, ${price}, ${timestamp})}\n\n`
       )
     );
   }
