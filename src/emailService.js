@@ -1,6 +1,9 @@
+const chalk = require('chalk');
+const log = console.log;
+
 class EmailService {
   send(email) {
-    console.log(`Sending email to ${email}`);
+    log(chalk.bgGreen(`Sending email to ${email}`));
   }
 }
 
