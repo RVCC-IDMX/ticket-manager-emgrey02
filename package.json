@@ -5,9 +5,9 @@
   "main": "index.js",
   "nodemonConfig": {
     "delay": 3000,
-     "events": {
-        "start": "cls || clear"
-      }
+    "events": {
+      "start": "cls || clear"
+    }
   },
   "scripts": {
     "watch": "nodemon",
@@ -30,5 +30,8 @@
     "eslint-plugin-import": "^2.25.2",
     "nodemon": "^2.0.14",
     "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   }
 }
